@@ -4,4 +4,4 @@ COPY . /usr/src/myapp
 
 WORKDIR /usr/src/myapp
 
-CMD [ "php", "Union/index.php" ]
+CMD [ "php", "NameArg/index.php" ]
