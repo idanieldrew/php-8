@@ -3,7 +3,7 @@
 class Union
 {
     // Union type
-    public function test(int|float $input): int|float
+    public function run(int|string $input): int|string
     {
         return $input;
     }
@@ -11,4 +11,8 @@ class Union
 
 $object = new Union();
 
-echo $object->test(54);
+// int
+echo $object->run(54);
+
+// string
+echo $object->run("54");
